@@ -30,7 +30,7 @@ def f(x):
     return q.Q(x[0])
 
 
-filename = 'icr-nliq-combined.csv'
+filename = 'data/icr-nliq-combined.csv'
 df = pd.read_csv(filename)
 df = df.fillna(0)
 # Read from csv and create numpy array.
@@ -69,7 +69,7 @@ for i in range(len(df)):
 
 df['rho'] = position
 df['Internationality'] = cost
-#df.to_csv('resultV1.csv')
+#df.to_csv('result/resultV1.csv')
 # I haven't written any code to save the results in a file because I'm not
 # sure about the formatting required. Each item in `results` has,
 #
