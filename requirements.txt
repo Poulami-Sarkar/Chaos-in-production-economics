@@ -63,7 +63,7 @@ psopy==0.2.3
 ptyprocess==0.6.0
 PyBluez==0.30
 pycparser==2.20
-Pygments==2.6.1
+Pygments==2.7.4
 pyobjc==6.2
 pyobjc-core==6.2
 pyobjc-framework-Accounts==6.2
